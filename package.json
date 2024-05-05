@@ -9,7 +9,8 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "eslint .",
-		"deploy": "cp -r build/* ."
+		"clean": "rm -r _app && rm 404.html && rm favicon.png && rm index.html && rm .nojekyll",
+		"deploy": "cp -r build/* . && touch .nojekyll"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
