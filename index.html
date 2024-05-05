@@ -2,31 +2,40 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="/ujwal2003.github.io/favicon.png" />
+		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="modulepreload" href="/ujwal2003.github.io/_app/immutable/entry/start.BBQAEodE.js">
-		<link rel="modulepreload" href="/ujwal2003.github.io/_app/immutable/chunks/entry.DhKqi6Pc.js">
-		<link rel="modulepreload" href="/ujwal2003.github.io/_app/immutable/chunks/scheduler.BvLojk_z.js">
-		<link rel="modulepreload" href="/ujwal2003.github.io/_app/immutable/entry/app.C25l0843.js">
-		<link rel="modulepreload" href="/ujwal2003.github.io/_app/immutable/chunks/index.CFUezsYx.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.Cc3EgDIa.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.DmC5FSZX.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.BvLojk_z.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.CuqwAKBJ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.CFUezsYx.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.CRvnb44t.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.BY9o5AAq.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">
+		<div style="display: contents">  <h1 data-svelte-h="svelte-yyjjjs">Welcome to SvelteKit</h1> <p data-svelte-h="svelte-jl9sbz">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p> 
+			
 			<script>
 				{
-					__sveltekit_15enta6 = {
-						base: "/ujwal2003.github.io",
-						assets: "/ujwal2003.github.io"
+					__sveltekit_1dcrom0 = {
+						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
+					const data = [null,null];
+
 					Promise.all([
-						import("/ujwal2003.github.io/_app/immutable/entry/start.BBQAEodE.js"),
-						import("/ujwal2003.github.io/_app/immutable/entry/app.C25l0843.js")
+						import("./_app/immutable/entry/start.Cc3EgDIa.js"),
+						import("./_app/immutable/entry/app.CuqwAKBJ.js")
 					]).then(([kit, app]) => {
-						kit.start(app, element);
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
 					});
 				}
 			</script>
