@@ -18,12 +18,13 @@
 
     <div class="hidden lg:block">
         <div class="flex gap-4 pt-2 cursor-pointer">
-            <span class="hover:scale-110">
+            <a class="hover:scale-110" href="https://www.linkedin.com/in/ujwalujoshi/" target="_blank">
                 <NavLinkedInIco />
-            </span>
-            <span class="hover:scale-110">
+            </a>
+            <a class="hover:scale-110" href="https://github.com/ujwal2003" target="_blank">
                 <NavGitHubIco />
-            </span>
+            </a>
         </div>
     </div>
 </nav>
+
