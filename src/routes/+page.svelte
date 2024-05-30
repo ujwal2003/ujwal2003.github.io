@@ -2,7 +2,6 @@
     import { navIcons } from '$lib/icons/navIcons';
     import NavLinkedInIco from '$lib/icons/navLinkedInIco.svelte';
     import NavGitHubIco from '$lib/icons/navGitHubIco.svelte';
-
 </script>
 
 <nav class='text-white text-2xl flex justify-center md:justify-between px-8 pt-8 pb-12 fixed bottom-0 left-0 w-full md:static z-50 
