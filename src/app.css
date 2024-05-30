@@ -3,3 +3,16 @@
 @tailwind utilities;
 
 html { overflow-y: scroll; background-color: #0E161B; }
+
+html::-webkit-scrollbar {
+    width: 0.5rem; /* 2px equivalent in rem */
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #374151; /* bg-gray-100 */
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 9999px; /* rounded-full */
+    background-color: #6b7280; /* bg-gray-300 */
+}
