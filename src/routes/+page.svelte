@@ -17,7 +17,7 @@
     </div>
 
     <div class="hidden lg:block">
-        <div class="flex gap-4 pt-2 cursor-pointer">
+        <div class="flex gap-4 cursor-pointer">
             <a class="hover:scale-110" href="https://www.linkedin.com/in/ujwalujoshi/" target="_blank">
                 <NavLinkedInIco />
             </a>
@@ -28,6 +28,16 @@
     </div>
 </nav>
 
-<div>
-    
+<div class="flex justify-center pt-16">
+    <div class="flex-col">
+        <div class="text-[#768087] text-3xl font-sans pb-2">
+            Hi! My name is
+        </div>
+        <div class="text-white text-8xl font-sans font-extrabold pb-6">
+            Ujwal Joshi,
+        </div>
+        <div class="text-white text-5xl font-sans">
+            an aspiring Software Engineer.
+        </div>
+    </div>
 </div>
