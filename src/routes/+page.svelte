@@ -2,9 +2,9 @@
     import { navIcons } from '$lib/icons/navIcons';
     import NavLinkedInIco from '$lib/icons/navLinkedInIco.svelte';
     import NavGitHubIco from '$lib/icons/navGitHubIco.svelte';
-    import LinkedInLarge from '$lib/icons/linkedInLarge.svelte';
-    import GithubLarge from '$lib/icons/githubLarge.svelte';
-    import ResumeIcon from '$lib/icons/resumeIcon.svelte';
+
+    import Heading from '$lib/Heading.svelte';
+    import HeroConnections from '$lib/HeroConnections.svelte';
 </script>
 
 <nav class='text-white text-2xl flex justify-center md:justify-between px-8 pt-8 pb-12 fixed bottom-0 left-0 w-full md:static z-50 
@@ -33,28 +33,7 @@
 
 <div class="flex justify-center pt-16">
     <div class="flex-col">
-        <div class="text-[#768087] text-3xl font-sans pb-2 max-sm:text-center">
-            Hi! My name is
-        </div>
-        <div class="text-white text-8xl font-sans font-extrabold pb-6 max-sm:text-center max-sm:text-6xl">
-            Ujwal Joshi,
-        </div>
-        <div class="text-white text-5xl font-sans max-sm:text-2xl max-sm:text-center">
-            an aspiring Software Engineer.
-        </div>
-
-        <div class="flex gap-24 mt-12 max-sm:gap-0">
-            <a class="md:hover:scale-110 max-sm:active:scale-110" href="https://www.linkedin.com/in/ujwalujoshi/" target="_blank">
-                <LinkedInLarge />
-            </a>
-
-            <a class="md:hover:scale-110 max-sm:active:scale-110" href="https://github.com/ujwal2003" target="_blank">
-                <GithubLarge />
-            </a>
-
-            <a class="md:hover:scale-110 max-sm:active:scale-110" href="/Resume.pdf" target="_blank">
-                <ResumeIcon />
-            </a>
-        </div>
+        <Heading />
+        <HeroConnections />
     </div>
 </div>
