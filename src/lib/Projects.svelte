@@ -1,5 +1,13 @@
-<h1 class="text-white font-semibold text-5xl mt-24 max-sm:text-4xl max-sm:mt-0 pt-4" id="ProjSection">
+<script lang="ts">
+    import UpButton from "./components/upButton.svelte";
+</script>
+
+<h1 class="flex text-white font-semibold text-5xl mt-24 max-sm:text-4xl max-sm:mt-0 pt-4" id="ProjSection">
     Projects
+
+    <div class="pt-2 pl-4 hover:motion-safe:animate-pulse opacity-20 hidden lg:block">
+        <UpButton url="#Home" />
+    </div>
 </h1>
 
 <p class="text-white text-wrap text-2xl pr-44 mx-auto mt-6 leading-relaxed 
