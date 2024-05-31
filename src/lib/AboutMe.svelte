@@ -1,9 +1,9 @@
-<h1 class="text-white font-semibold text-5xl mt-24 mr-auto max-sm:text-4xl max-sm:mt-14" id="AboutMe">
+<h1 class="text-white font-semibold text-5xl mt-24 mr-auto max-sm:text-4xl max-sm:mt-14 pt-4" id="AboutMe">
     About Me
 </h1>
 
 <p class="text-white text-wrap text-2xl pr-44 mx-auto mt-6 leading-relaxed 
-            max-sm:pr-3 max-sm:text-xl max-sm:mt-4 max-sm:pb-32 max-sm:leading-7">
+            max-sm:pr-3 max-sm:text-xl max-sm:mt-4 max-sm:pb-12 max-sm:leading-7">
     Hey there! I'm 
     <span class="bg-sky-500/[.05]">
         Ujwal Joshi,

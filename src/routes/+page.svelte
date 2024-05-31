@@ -3,6 +3,9 @@
     import Heading from '$lib/HeroSection/Heading.svelte';
     import HeroConnections from '$lib/HeroSection/HeroConnections.svelte';
     import AboutMe from '$lib/AboutMe.svelte';
+    import Experience from '$lib/Experience.svelte';
+    import Projects from '$lib/Projects.svelte';
+    import ContactMe from '$lib/ContactMe.svelte';
 </script>
 
 <NavBar />
@@ -12,4 +15,7 @@
     <HeroConnections />
 
     <AboutMe />
+    <Experience />
+    <Projects />
+    <ContactMe />
 </div>
