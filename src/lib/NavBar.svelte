@@ -4,7 +4,7 @@
     import NavLinkedInIco from './icons/navLinkedInIco.svelte';
     import NavGitHubIco from './icons/navGitHubIco.svelte';
 
-    const NavSections: Record<string, string> = {Home: "#Home", About: "#AboutMe", Experience: "#ExprSection", Projects: "#ProjSection", "Contact": "#ContactMe"};
+    const NavSections: Record<string, string> = {Home: "#Top", About: "#AboutMe", Experience: "#ExprSection", Projects: "#ProjSection", "Contact": "#ContactMe"};
     const getNavSection = (navItem: string): string => NavSections[navItem];
 </script>
 

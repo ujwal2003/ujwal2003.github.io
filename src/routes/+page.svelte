@@ -8,6 +8,7 @@
     import ContactMe from '$lib/ContactMe.svelte';
 </script>
 
+<div id="Top"></div>
 <NavBar />
 
 <div class="flex flex-col ml-64 pt-16 max-sm:ml-8 pb-14 mt-12 max-sm:mt-0">

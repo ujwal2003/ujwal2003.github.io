@@ -6,7 +6,7 @@
     Experience
 
     <div class="pt-2 pl-4 hover:motion-safe:animate-pulse opacity-20 hidden lg:block">
-        <UpButton url="#Home" />
+        <UpButton url="#Top" />
     </div>
 </h1>
 

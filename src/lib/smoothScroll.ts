@@ -1,3 +1,4 @@
+// source: https://svelte.dev/repl/0a9f812027da4d99b253f39a1941986c?version=3.31.0
 type MouseClickEvent = MouseEvent & {
     currentTarget: EventTarget & HTMLAnchorElement;
 };
