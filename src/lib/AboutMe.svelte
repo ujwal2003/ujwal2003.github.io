@@ -5,7 +5,7 @@
 <h1 class="flex text-white font-semibold text-5xl mt-24 mr-auto max-sm:text-4xl max-sm:mt-14 pt-4" id="AboutMe">
     About Me
     <div class="pt-2 pl-4 hover:motion-safe:animate-pulse opacity-20">
-        <UpButton />
+        <UpButton url="#Home" />
     </div>
 </h1>
 
