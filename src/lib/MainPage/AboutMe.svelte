@@ -1,5 +1,5 @@
 <script lang="ts">
-    import UpButton from "./components/upButton.svelte";
+    import UpButton from "../components/upButton.svelte";
 </script>
 
 <h1 class="flex text-white font-semibold text-5xl mt-24 mr-auto max-sm:text-4xl max-sm:mt-14 pt-4" id="AboutMe">
