@@ -1,7 +1,7 @@
 <script lang="ts">
-    import GithubLarge from "./icons/githubLarge.svelte";
-    import LinkedInLarge from "./icons/linkedInLarge.svelte";
-    import ResumeIcon from "./icons/resumeIcon.svelte";
+    import GithubLarge from "../icons/githubLarge.svelte";
+    import LinkedInLarge from "../icons/linkedInLarge.svelte";
+    import ResumeIcon from "../icons/resumeIcon.svelte";
 
 </script>
 
