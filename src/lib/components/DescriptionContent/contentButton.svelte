@@ -1,10 +1,13 @@
 <script lang="ts">
+    import { createEventDispatcher } from "svelte";
+
     export let arrowIcon = false;
+    const dispatch = createEventDispatcher();
 </script>
 
 <div class="mt-3">
     <button type="button" class="py-1 px-2 inline-flex items-center gap-x-2 text-lg rounded-lg border border-[#7F94A6] text-[#7F94A6] disabled:opacity-50 
-                                 disabled:pointer-events-none hover:bg-slate-300/20">
+                                 disabled:pointer-events-none hover:bg-slate-300/20" on:click={() => dispatch('contentClick')}>
         <slot></slot> 
 
         {#if arrowIcon}
