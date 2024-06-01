@@ -15,25 +15,25 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p> -->
 
-<div class="mt-6">
+<div class="mt-6 pb-4">
 
-    <div class="flex gap-24">
+    <div class="flex gap-24 max-sm:flex-col max-sm:gap-3">
         <div class="pt-0.5">
             <h2 class="text-white text-3xl font-medium">
                 Boeing
             </h2>
     
-            <h3 class="text-[#768087] text-lg mt-2">
+            <h3 class="text-[#768087] text-lg mt-2 max-sm:text-xl">
                 Jun. 2024 - Present
             </h3>
         </div>
 
         <div>
-            <h4 class="text-white text-[28px]">
+            <h4 class="text-white text-[28px] max-sm:text-xl">
                 Digital Aviations Solutions Intern
             </h4>
 
-            <p class="text-[#7F94A6] text-xl w-2/3 mt-2">
+            <p class="text-[#7F94A6] text-xl w-2/3 mt-2 max-sm:text-lg max-sm:w-auto">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
 
