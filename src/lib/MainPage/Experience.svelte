@@ -2,12 +2,12 @@
     import Content from "$lib/components/DescriptionContent/Content/content.svelte";
     import ContentText from "$lib/components/DescriptionContent/Content/contentText.svelte";
     import DescriptionTitle from "$lib/components/DescriptionContent/Content/descriptionTitle.svelte";
-import ContentSubtitle from "$lib/components/DescriptionContent/DescriptionHead/contentSubtitle.svelte";
-import ContentTitle from "$lib/components/DescriptionContent/DescriptionHead/contentTitle.svelte";
-import DescriptionHead from "$lib/components/DescriptionContent/DescriptionHead/descriptionHead.svelte";
+    import ContentSubtitle from "$lib/components/DescriptionContent/DescriptionHead/contentSubtitle.svelte";
+    import ContentTitle from "$lib/components/DescriptionContent/DescriptionHead/contentTitle.svelte";
+    import DescriptionHead from "$lib/components/DescriptionContent/DescriptionHead/descriptionHead.svelte";
     import ContentButton from "$lib/components/DescriptionContent/contentButton.svelte";
-import DescriptionContent from "$lib/components/DescriptionContent/descriptionContent.svelte";
-import UpButton from "../components/upButton.svelte";
+    import DescriptionContent from "$lib/components/DescriptionContent/descriptionContent.svelte";
+    import UpButton from "../components/upButton.svelte";
 </script>
 
 <h1 class="flex text-white font-semibold text-5xl mt-24 max-sm:text-4xl max-sm:mt-0 pt-4" id="ExprSection">
@@ -18,22 +18,19 @@ import UpButton from "../components/upButton.svelte";
     </div>
 </h1>
 
-<div class="mt-6 pb-4">
+<div class="mt-6 max-sm:pb-14 flex flex-col gap-16 max-sm:gap-12">
 
     <DescriptionContent>
         <DescriptionHead>
-            <ContentTitle> Work 1 </ContentTitle>
+            <ContentTitle> Boeing </ContentTitle>
             <ContentSubtitle> Jun. 2024 - Present </ContentSubtitle>
         </DescriptionHead>
 
         <Content>
-            <DescriptionTitle> Position Name </DescriptionTitle>
+            <DescriptionTitle> Digital Aviation Solutions Intern </DescriptionTitle>
             <ContentText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                I will be joining Boeing as a Digital Aviation Solutions Intern this Summer.
             </ContentText>
-            <ContentButton arrowIcon on:contentClick={() => console.log("click!")}>
-                Learn More
-            </ContentButton>
         </Content>
     </DescriptionContent>
 
