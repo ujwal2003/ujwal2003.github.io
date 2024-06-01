@@ -10,7 +10,25 @@
     </div>
 </h1>
 
-<p class="text-white text-wrap text-2xl pr-44 mx-auto mt-6 leading-relaxed 
-            max-sm:pr-3 max-sm:text-xl max-sm:mt-4 max-sm:pb-32 max-sm:leading-7">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+<div class="space-y-3 w-1/2 mt-4 pb-6 max-sm:w-11/12 max-sm:pb-20">
+    <form action="mailto:joshiujwal2003@gmail.com" method="post" enctype="text/plain">
+        <label for="hs-leading-icon" class="block text-base font-medium mb-2 text-white">Email address</label>
+        <div class="relative">
+            <input type="text" id="hs-leading-icon" name="hs-leading-icon" class="py-3 px-4 ps-11 block w-full border-gray-200 shadow-sm rounded-lg text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none" placeholder="you@site.com" />
+            <div class="absolute inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-4">
+                <svg class="flex-shrink-0 size-4 text-neutral-600" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <label for="textarea-label" class="block text-base font-medium mb-2 text-white">Comment</label>
+            <textarea id="textarea-label" class="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm
+            disabled:opacity-50 disabled:pointer-events-none text-neutral-400 placeholder-neutral-500 focus:ring-neutral-600" rows="5" placeholder="Message"></textarea>
+        </div>
+
+        <input type="submit" value="Submit" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none mt-4 cursor-pointer" />
+    </form>
+</div>
