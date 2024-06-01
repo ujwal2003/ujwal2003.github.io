@@ -4,8 +4,10 @@
     import NavLinkedInIco from './icons/navLinkedInIco.svelte';
     import NavGitHubIco from './icons/navGitHubIco.svelte';
 
-    const NavSections: Record<string, string> = {Home: "#Top", About: "#AboutMe", Experience: "#ExprSection", Projects: "#ProjSection", "Contact": "#ContactMe"};
-    const getNavSection = (navItem: string): string => NavSections[navItem];
+    type Nav = 'Home' | 'About' | 'Experience' | 'Projects' | 'Contact';
+
+    export let NavSections: Record<Nav, string> = {Home: "#Top", About: "#AboutMe", Experience: "#ExprSection", Projects: "#ProjSection", Contact: "#ContactMe"};
+    const getNavSection = (navItem: string): string => NavSections[navItem as Nav];
 </script>
 
 <nav class="text-white text-2xl flex justify-center md:justify-between px-10 pt-8 pb-2 fixed bottom-0 left-0 w-full md:static md:top-0 z-50 
