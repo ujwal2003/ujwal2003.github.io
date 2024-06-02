@@ -42,6 +42,10 @@
                     GitHub Repo
                 </ContentButton>
             </ButtonContainer>
+
+            <p class="mt-5 text-xs text-gray-500 dark:text-neutral-500">
+                February 2024
+            </p>
         </CardContent>
     </ProjectCard>
 
@@ -59,6 +63,10 @@
                     GitHub Repo
                 </ContentButton>
             </ButtonContainer>
+
+            <p class="mt-5 text-xs text-gray-500 dark:text-neutral-500">
+                December 2023
+            </p>
         </CardContent>
     </ProjectCard>
 
@@ -76,6 +84,10 @@
                     GitHub Repo
                 </ContentButton>
             </ButtonContainer>
+
+            <p class="mt-5 text-xs text-gray-500 dark:text-neutral-500">
+                April 2020
+            </p>
         </CardContent>
     </ProjectCard>
 
