@@ -11,7 +11,7 @@
 </script>
 
 <h1 class="flex text-white font-semibold text-5xl mt-24 max-sm:text-4xl max-sm:mt-0 pt-4" id="ProjSection">
-    Projects
+    Featured Projects
 
     <div class="pt-2 pl-4 hover:motion-safe:animate-pulse opacity-20 hidden lg:block">
         <UpButton url="#Top" />
@@ -21,16 +21,23 @@
 <div class="flex gap-6 flex-wrap mt-3 max-sm:pb-3 max-sm:flex-col max-sm:gap-3">
 
     <ProjectCard>
-        <ProjectImage />
+        <ProjectImage src='/images/chatAIR_projectBanner.png' />
         <CardContent>
-            <CardTitle> Project Title </CardTitle>
+            <CardTitle> Chat AIr </CardTitle>
             <CardText>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
+                Mobile chatbot powered by AI to find cheap flights. First place winner at the 
+                <a  class="hover:bg-none hover:underline hover:decoration-sky-500/[.25] hover:underline-offset-4 hover:decoration-2 hover:decoration-double"
+                    href="https://codered-genesis.devpost.com/" target="_blank">
+                    <span class="bg-sky-500/[.05]">
+                        CodeRED: Genesis Hackathon
+                    </span>
+                </a> 
+                PROS track.
             </CardText>
 
             <ButtonContainer>
-                <LearnMoreBtn disabled on:learnMoreClick={() => console.log('learn more!!')} />
-                <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => console.log('repo!')}>
+                <LearnMoreBtn on:learnMoreClick={() => window.open('https://devpost.com/software/chatair', '_blank')} />
+                <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => window.open('https://github.com/ujwal2003/CodeRED2024', '_blank')}>
                     GitHub Repo
                 </ContentButton>
             </ButtonContainer>
