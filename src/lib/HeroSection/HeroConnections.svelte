@@ -15,7 +15,7 @@
         <GithubLarge />
     </a>
 
-    <a class="md:hover:scale-110 max-sm:active:scale-110" href="/Resume.pdf" target="_blank">
+    <a class="md:hover:scale-110 max-sm:active:scale-110" href="/assets/Resume.pdf" target="_blank">
         <ResumeIcon />
     </a>
 </div>

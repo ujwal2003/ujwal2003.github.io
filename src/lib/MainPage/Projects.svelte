@@ -35,9 +35,27 @@
                 PROS track.
             </CardText>
 
+            <div class="pt-14"></div>
             <ButtonContainer>
                 <LearnMoreBtn on:learnMoreClick={() => window.open('https://devpost.com/software/chatair', '_blank')} />
                 <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => window.open('https://github.com/ujwal2003/CodeRED2024', '_blank')}>
+                    GitHub Repo
+                </ContentButton>
+            </ButtonContainer>
+        </CardContent>
+    </ProjectCard>
+
+    <ProjectCard>
+        <ProjectImage />
+        <CardContent>
+            <CardTitle> Traffic Trends ML Model </CardTitle>
+            <CardText>
+                Utilized machine learning and statistical analysis to conduct a comprehensive analysis of intersate traffic and identify key factors pivotal to predicting traffic volume.
+            </CardText>
+
+            <ButtonContainer>
+                <LearnMoreBtn on:learnMoreClick={() => window.open('/assets/HighHustle_ML.pdf', '_blank')} />
+                <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => window.open('https://github.com/ujwal2003/Highway-Hustle_Machine_Learning-Proj', '_blank')}>
                     GitHub Repo
                 </ContentButton>
             </ButtonContainer>
