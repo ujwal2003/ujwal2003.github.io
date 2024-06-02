@@ -62,4 +62,21 @@
         </CardContent>
     </ProjectCard>
 
+    <ProjectCard>
+        <ProjectImage />
+        <CardContent>
+            <CardTitle> Fluid Dynamics Serial Receiver </CardTitle>
+            <CardText>
+                Collaborated with a team to create a Java Swing desktop application that collects and displays data from fluid samples, utilizing three sensors to detect chemical content.
+            </CardText>
+
+            <ButtonContainer>
+                <LearnMoreBtn disabled />
+                <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => window.open('https://github.com/ujwal2003/fluid-dynamics-serial-receiver', '_blank')}>
+                    GitHub Repo
+                </ContentButton>
+            </ButtonContainer>
+        </CardContent>
+    </ProjectCard>
+
 </div>
