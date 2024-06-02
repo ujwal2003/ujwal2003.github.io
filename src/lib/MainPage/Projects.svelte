@@ -1,6 +1,13 @@
 <script lang="ts">
+    import ProjectCard from '$lib/components/ProjectCard/projectCard.svelte';
+    import ProjectImage from '$lib/components/ProjectCard/projectImage.svelte';
+    import CardContent from '$lib/components/ProjectCard/cardContent.svelte';
+    import CardTitle from '$lib/components/ProjectCard/cardTitle.svelte';
+    import CardText from '$lib/components/ProjectCard/cardText.svelte';
+    import ButtonContainer from '$lib/components/ProjectCard/CardButtons/buttonContainer.svelte';
+    import LearnMoreBtn from '$lib/components/ProjectCard/CardButtons/learnMoreButton.svelte';
     import ContentButton from "$lib/components/DescriptionContent/contentButton.svelte";
-import UpButton from "../components/upButton.svelte";
+    import UpButton from "../components/upButton.svelte";
 </script>
 
 <h1 class="flex text-white font-semibold text-5xl mt-24 max-sm:text-4xl max-sm:mt-0 pt-4" id="ProjSection">
@@ -11,36 +18,23 @@ import UpButton from "../components/upButton.svelte";
     </div>
 </h1>
 
-<div>
+<div class="flex gap-6 flex-wrap mt-3 max-sm:pb-3 max-sm:flex-col max-sm:gap-3">
 
-    <!-- <div class="flex flex-col w-[17rem] border shadow-sm rounded-xl bg-[#0F182C] border-[#161E23] shadow-neutral-700/70
-                max-sm:w-11/12">
-
-        <img class="w-full h-auto rounded-t-xl max-sm:hidden" 
-            src="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2532&q=80" 
-            alt="Description">
-
-        <div class="p-4">
-            <h3 class="text-2xl font-semibold text-gray-800 dark:text-white">
-                Card title
-            </h3>
-
-            <p class="mt-1 text-[#7F94A6] text-base pb-4">
+    <ProjectCard>
+        <ProjectImage />
+        <CardContent>
+            <CardTitle> Project Title </CardTitle>
+            <CardText>
                 Some quick example text to build on the card title and make up the bulk of the card's content.
-            </p>
+            </CardText>
 
-            <div class="max-sm:flex max-sm:justify-center max-sm:items-center max-sm:gap-4">
-                <button class="py-1 px-8 inline-flex items-center gap-x-2 text-md rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 
-                                disabled:opacity-50  disabled:cursor-no-drop disabled:hover:bg-blue-600 md:mb-2" 
-                        type="button">
-                    Learn More
-                </button>
-    
-                <ContentButton arrowIcon smallText noTopMargin>
+            <ButtonContainer>
+                <LearnMoreBtn on:learnMoreClick={() => console.log('learn more!!')} />
+                <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => console.log('repo!')}>
                     GitHub Repo
                 </ContentButton>
-            </div>
-        </div>
-    </div> -->
+            </ButtonContainer>
+        </CardContent>
+    </ProjectCard>
 
 </div>
