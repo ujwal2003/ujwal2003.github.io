@@ -27,7 +27,7 @@
         </DescriptionHead>
 
         <Content>
-            <DescriptionTitle> Digital Aviation Solutions Intern </DescriptionTitle>
+            <DescriptionTitle> Digital Aviation Solutions - Development Intern </DescriptionTitle>
             <ContentText>
                 I will be joining Boeing as a Digital Aviation Solutions Intern this Summer.
             </ContentText>
