@@ -13,7 +13,7 @@ import UpButton from "../components/upButton.svelte";
 
 <div>
 
-    <div class="flex flex-col w-[17rem] border shadow-sm rounded-xl bg-[#0F182C] border-[#161E23] shadow-neutral-700/70
+    <!-- <div class="flex flex-col w-[17rem] border shadow-sm rounded-xl bg-[#0F182C] border-[#161E23] shadow-neutral-700/70
                 max-sm:w-11/12">
 
         <img class="w-full h-auto rounded-t-xl max-sm:hidden" 
@@ -30,7 +30,9 @@ import UpButton from "../components/upButton.svelte";
             </p>
 
             <div class="max-sm:flex max-sm:justify-center max-sm:items-center max-sm:gap-4">
-                <button type="button" class="py-1 px-8 inline-flex items-center gap-x-2 text-md rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none md:mb-2">
+                <button class="py-1 px-8 inline-flex items-center gap-x-2 text-md rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 
+                                disabled:opacity-50  disabled:cursor-no-drop disabled:hover:bg-blue-600 md:mb-2" 
+                        type="button">
                     Learn More
                 </button>
     
@@ -39,6 +41,6 @@ import UpButton from "../components/upButton.svelte";
                 </ContentButton>
             </div>
         </div>
-    </div>
+    </div> -->
 
 </div>
