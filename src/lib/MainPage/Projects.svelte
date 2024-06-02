@@ -29,7 +29,7 @@
             </CardText>
 
             <ButtonContainer>
-                <LearnMoreBtn on:learnMoreClick={() => console.log('learn more!!')} />
+                <LearnMoreBtn disabled on:learnMoreClick={() => console.log('learn more!!')} />
                 <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => console.log('repo!')}>
                     GitHub Repo
                 </ContentButton>
