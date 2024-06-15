@@ -8,6 +8,7 @@
     import LearnMoreBtn from '$lib/components/ProjectCard/CardButtons/learnMoreButton.svelte';
     import ContentButton from "$lib/components/DescriptionContent/contentButton.svelte";
     import UpButton from "../components/upButton.svelte";
+    import HighlightLink from '$lib/components/highlightLink.svelte';
 </script>
 
 <h1 class="flex text-white font-semibold text-5xl mt-24 max-sm:text-4xl max-sm:mt-0 pt-4" id="ProjSection">
@@ -26,16 +27,11 @@
             <CardTitle> Chat AIr </CardTitle>
             <CardText>
                 Mobile chatbot powered by AI to find cheap flights. First place winner at the 
-                <a  class="hover:bg-none hover:underline hover:decoration-sky-500/[.25] hover:underline-offset-4 hover:decoration-2 hover:decoration-double"
-                    href="https://codered-genesis.devpost.com/" target="_blank">
-                    <span class="bg-sky-500/[.05]">
-                        CodeRED: Genesis Hackathon
-                    </span>
-                </a> 
+                <HighlightLink href="https://codered-genesis.devpost.com/">CodeRED: Genisis Hackathon</HighlightLink> 
                 PROS track.
             </CardText>
 
-            <div class="pt-14"></div>
+            <div class="pt-20 max-sm:pt-10"></div>
             <ButtonContainer>
                 <LearnMoreBtn on:learnMoreClick={() => window.open('https://devpost.com/software/chatair', '_blank')} />
                 <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => window.open('https://github.com/ujwal2003/CodeRED2024', '_blank')}>
