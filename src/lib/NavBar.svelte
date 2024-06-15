@@ -8,6 +8,8 @@
 
     export let NavSections: Record<Nav, string> = {Home: "#Top", About: "#AboutMe", Experience: "#ExprSection", Projects: "#ProjSection", Contact: "#ContactMe"};
     const getNavSection = (navItem: string): string => NavSections[navItem as Nav];
+
+    export let smoothScroll = true;
 </script>
 
 <nav class="text-white text-2xl flex justify-center md:justify-between px-10 pt-8 pb-2 fixed bottom-0 left-0 w-full md:static md:top-0 z-50 
@@ -16,7 +18,9 @@
 
     <div class="flex gap-10 max-sm:gap-8">
         {#each Object.entries(navIcons) as [navItem, icon]}
-            <a class="flex gap-2 cursor-pointer md:hover:scale-110 max-sm:active:scale-150" href={getNavSection(navItem)} on:click={handleAnchorClick}>
+            <a class="flex gap-2 cursor-pointer md:hover:scale-110 max-sm:active:scale-150" 
+                href={getNavSection(navItem)} on:click={(e) => {smoothScroll ? handleAnchorClick(e) : null}}>
+
                 {@html icon}
                 <span class="hidden md:block">{navItem}</span>
             </a>
