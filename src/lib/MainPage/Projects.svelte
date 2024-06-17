@@ -89,17 +89,17 @@
 
 </div>
 
-<!-- <div class="mt-5 max-sm:mt-2 max-sm:mb-3">
+<div class="mt-5 max-sm:mt-2 max-sm:mb-3">
     <a href='/projects'
        class="py-3 px-4 inline-flex items-center gap-x-2 text-xl font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700">
         See All My Projects
     </a>
-</div> -->
+</div>
 
-<div class="mt-5 max-sm:mt-2 max-sm:mb-3">
+<!-- <div class="mt-5 max-sm:mt-2 max-sm:mb-3">
     <button disabled
        class="py-3 px-4 inline-flex items-center gap-x-2 text-xl font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 
               disabled:opacity-50 disabled:cursor-no-drop disabled:hover:bg-blue-600">
         See All My Projects
     </button>
-</div>
+</div> -->
