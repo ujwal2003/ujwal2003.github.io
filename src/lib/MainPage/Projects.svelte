@@ -46,7 +46,7 @@
     </ProjectCard>
 
     <ProjectCard>
-        <ProjectImage />
+        <ProjectImage src="/images/highway_hustle.png" />
         <CardContent>
             <CardTitle> Traffic Trends ML Model </CardTitle>
             <CardText>
