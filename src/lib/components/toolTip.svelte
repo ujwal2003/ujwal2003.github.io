@@ -11,12 +11,12 @@
 	
 	function mouseOver(event: ToolTipMouseEvent) {
 		isHovered = true;
-		x = event.pageX + 5;
-		y = event.pageY + 5;
+		x = event.pageX + 12;
+		y = event.pageY + 10;
 	}
 	function mouseMove(event: ToolTipMouseEvent) {
-		x = event.pageX + 5;
-		y = event.pageY + 5;
+		x = event.pageX + 12;
+		y = event.pageY + 10;
 	}
 	function mouseLeave() {
 		isHovered = false;
@@ -43,5 +43,6 @@
 		border-radius: 4px;
 		padding: 2px;
 		position: absolute;
+        opacity: 65%;
 	}
 </style>
