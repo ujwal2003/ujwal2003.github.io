@@ -21,7 +21,9 @@
 <ProjectSection>
     <ProjectHeader>
         <ProjectTitleArea>
-            <ProjTitleText> Traffic Trends </ProjTitleText>
+            <ProjTitleText --pcFontSize="2.2rem" --mobileFontSize="25px"> 
+                Traffic Trends ML Model 
+            </ProjTitleText>
             <ProjectDate> December 2023 </ProjectDate>
         </ProjectTitleArea>
 
