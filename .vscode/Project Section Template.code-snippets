@@ -1,0 +1,82 @@
+{
+	// Place your portfolio-website workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	// https://medium.com/@sun_tech/how-to-create-code-snippets-templates-on-visual-studio-vs-code-bec96c3bc48e
+
+	"Project Section Svelte Template": {
+		"prefix": "Project Section Svelte Template",
+		"body": [
+			"<script lang=\"ts\">",
+			"    import ProjectSection from \"$lib/components/ProjectSection/projectSection.svelte\";",
+			"    import ProjectHeader from \"$lib/components/ProjectSection/ProjectSectionHead/projectHeader.svelte\";",
+			"",
+			"    import ProjectTitleArea from \"$lib/components/ProjectSection/ProjectSectionHead/ProjectTitleArea/projectTitleArea.svelte\";",
+			"    import ProjTitleText from \"$lib/components/ProjectSection/ProjectSectionHead/ProjectTitleArea/projTitleText.svelte\";",
+			"    import ProjectDate from \"$lib/components/ProjectSection/ProjectSectionHead/ProjectTitleArea/projectDate.svelte\";",
+			"",
+			"    import ProjectTechArea from \"$lib/components/ProjectSection/ProjectSectionHead/ProjectTechnologies/projectTechArea.svelte\";",
+			"    import TechIconsArea from \"$lib/components/ProjectSection/ProjectSectionHead/ProjectTechnologies/techIconsArea.svelte\";",
+			"    import ProjTechText from \"$lib/components/ProjectSection/ProjectSectionHead/ProjectTechnologies/projTechText.svelte\";",
+			"",
+			"    import ProjectDescriptionArea from \"$lib/components/ProjectSection/ProjectDescription/projectDescriptionArea.svelte\";",
+			"    import ProjDescriptionText from \"$lib/components/ProjectSection/ProjectDescription/projDescriptionText.svelte\";",
+			"    import ProjectButtonArea from \"$lib/components/ProjectSection/ProjectDescription/projectButtonArea.svelte\";",
+			"    import ContentButton from \"$lib/components/DescriptionContent/contentButton.svelte\";",
+			"    import LearnMoreButton from \"$lib/components/ProjectCard/CardButtons/learnMoreButton.svelte\";",
+			"    import HighlightLink from \"$lib/components/highlightLink.svelte\";",
+			"</script>",
+			"",
+			"<ProjectSection>",
+			"    <ProjectHeader>",
+			"        <ProjectTitleArea>",
+			"            <ProjTitleText> Project Title </ProjTitleText>",
+			"            <ProjectDate> Month YYYY </ProjectDate>",
+			"        </ProjectTitleArea>",
+			"",
+			"        <ProjectTechArea>",
+			"            <TechIconsArea>",
+			"                <!-- https://marwin1991.github.io/profile-technology-icons/ -->",
+			"            </TechIconsArea>",
+			"",
+			"            <ProjTechText>",
+			"                Technology 1, Technology 2, Technology 3, Technology 4",
+			"            </ProjTechText>",
+			"        </ProjectTechArea>",
+			"    </ProjectHeader>",
+			"",
+			"    <ProjectDescriptionArea>",
+			"        <ProjDescriptionText>",
+			"            Lorem ipsum dolor sit amet, consectetur adipiscing ",
+			"            elit, sed do eiusmod tempor incididunt ut labore et ",
+			"            dolore magna aliqua. Ut enim ad minim veniam, quis ",
+			"            nostrud exercitation ullamco laboris nisi ut aliquip ex ",
+			"            ea commodo consequat.",
+			"        </ProjDescriptionText>",
+			"",
+			"        <ProjectButtonArea>",
+			"            <LearnMoreButton on:learnMoreClick={() => window.open('https://ujwal2003.github.io/#', '_blank')} />",
+			"            <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => window.open('https://ujwal2003.github.io/', '_blank')}>",
+			"                GitHub Repo",
+			"            </ContentButton>",
+			"        </ProjectButtonArea>",
+			"    </ProjectDescriptionArea>",
+			"</ProjectSection>"
+		],
+		"description": "Project Section Svelte Template"
+	}
+}
