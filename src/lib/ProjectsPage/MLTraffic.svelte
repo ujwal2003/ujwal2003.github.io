@@ -53,6 +53,7 @@
             <HighlightLink href="https://www.kaggle.com/code/ramyahr/metro-interstate-traffic-volume">
                 MN traffic volume for westbound I-94 dataset.
             </HighlightLink>
+            <div class="mt-12 max-sm:mt-0"></div>
         </ProjDescriptionText>
 
         <ProjectButtonArea>
