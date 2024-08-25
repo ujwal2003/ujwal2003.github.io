@@ -35,25 +35,29 @@
 </div> -->
 
 <!-- Contact Card -->
-<div class="space-y-3 w-1/2 mt-4 pb-6 max-sm:w-11/12 max-sm:pb-20">
-    <div class="bg-white border rounded-xl shadow-sm sm:flex dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
-        <div class="shrink-0 relative w-full rounded-t-xl overflow-hidden pt-[40%] sm:rounded-s-xl sm:max-w-60 md:rounded-se-none md:max-w-xs">
-          <img class="size-full absolute top-0 start-0 object-cover" src="/images/mail_image_blue.png" alt="Email App Icon">
+<div class="space-y-3 w-1/3 mt-4 pb-20 max-sm:w-11/12 max-sm:pb-20">
+    <div class="border shadow-sm bg-[#0F182C] border-[#161E23] shadow-neutral-700/70 flex rounded-xl">
+
+        <div class="relative w-1/3 md:w-1/4">
+          <img class="size-full absolute top-0 start-0 object-cover rounded-l-xl" src="/images/mail_image_blue.png" alt="Email App Icon">
         </div>
+
         <div class="flex flex-wrap">
           <div class="p-4 flex flex-col h-full sm:p-7">
-            <h3 class="text-lg font-bold text-gray-800 dark:text-white">
-              Card title
+            <h3 class="text-3xl font-semiboldbold text-white">
+              Email
             </h3>
-            <p class="mt-1 text-gray-500 dark:text-neutral-400">
-              Some quick example text to build on the card title and make up the bulk of the card's content.
+            <p class="mt-1 text-xl text-[#7F94A6]">
+              joshiujwal2003@gmail.com
             </p>
-            <div class="mt-5 sm:mt-auto">
+            
+            <!-- <div class="mt-5 sm:mt-auto">
               <p class="text-xs text-gray-500 dark:text-neutral-500">
                 Last updated 5 mins ago
               </p>
-            </div>
+            </div> -->
           </div>
         </div>
+
     </div>
 </div>
