@@ -10,7 +10,8 @@
     </div>
 </h1>
 
-<div class="space-y-3 w-1/2 mt-4 pb-6 max-sm:w-11/12 max-sm:pb-20">
+<!-- Contact Form -->
+<!-- <div class="space-y-3 w-1/2 mt-4 pb-6 max-sm:w-11/12 max-sm:pb-20">
     <form action="mailto:joshiujwal2003@gmail.com" method="post" enctype="text/plain">
         <label for="hs-leading-icon" class="block text-base font-medium mb-2 text-white">Email address</label>
         <div class="relative">
@@ -31,4 +32,28 @@
 
         <input type="submit" value="Submit" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none mt-4 cursor-pointer" />
     </form>
+</div> -->
+
+<!-- Contact Card -->
+<div class="space-y-3 w-1/2 mt-4 pb-6 max-sm:w-11/12 max-sm:pb-20">
+    <div class="bg-white border rounded-xl shadow-sm sm:flex dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+        <div class="shrink-0 relative w-full rounded-t-xl overflow-hidden pt-[40%] sm:rounded-s-xl sm:max-w-60 md:rounded-se-none md:max-w-xs">
+          <img class="size-full absolute top-0 start-0 object-cover" src="/images/mail_image_blue.png" alt="Email App Icon">
+        </div>
+        <div class="flex flex-wrap">
+          <div class="p-4 flex flex-col h-full sm:p-7">
+            <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+              Card title
+            </h3>
+            <p class="mt-1 text-gray-500 dark:text-neutral-400">
+              Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+            <div class="mt-5 sm:mt-auto">
+              <p class="text-xs text-gray-500 dark:text-neutral-500">
+                Last updated 5 mins ago
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
 </div>
