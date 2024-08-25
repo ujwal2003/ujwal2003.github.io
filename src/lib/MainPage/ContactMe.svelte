@@ -35,10 +35,10 @@
 </div> -->
 
 <!-- Contact Card -->
-<div class="space-y-3 w-1/3 mt-4 pb-20 max-sm:w-11/12 max-sm:pb-20">
+<div class="space-y-3 w-1/3 mt-4 pb-20 max-sm:w-11/12 max-sm:pb-28">
     <div class="border shadow-sm bg-[#0F182C] border-[#161E23] shadow-neutral-700/70 flex rounded-xl">
 
-        <div class="relative w-1/3 md:w-1/4">
+        <div class="relative w-1/3 md:w-1/4 max-sm:hidden">
           <img class="size-full absolute top-0 start-0 object-cover rounded-l-xl" src="/images/mail_image_blue.png" alt="Email App Icon">
         </div>
 
@@ -50,7 +50,7 @@
             <p class="mt-1 text-xl text-[#7F94A6]">
               joshiujwal2003@gmail.com
             </p>
-            
+
             <!-- <div class="mt-5 sm:mt-auto">
               <p class="text-xs text-gray-500 dark:text-neutral-500">
                 Last updated 5 mins ago
