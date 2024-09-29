@@ -31,7 +31,7 @@
                 PROS track.
             </CardText>
 
-            <div class="pt-20 max-sm:pt-10"></div>
+            <div class="pt-[6.55rem] max-sm:pt-10"></div>
             <ButtonContainer>
                 <LearnMoreBtn on:learnMoreClick={() => window.open('https://devpost.com/software/chatair', '_blank')} />
                 <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => window.open('https://github.com/ujwal2003/CodeRED2024', '_blank')}>
@@ -53,6 +53,7 @@
                 Utilized machine learning and statistical analysis to conduct a comprehensive analysis of intersate traffic and identify key factors pivotal to predicting traffic volume.
             </CardText>
 
+            <div class="pt-6 max-sm:pt-10"></div>
             <ButtonContainer>
                 <LearnMoreBtn on:learnMoreClick={() => window.open('/assets/HighHustle_ML.pdf', '_blank')} />
                 <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => window.open('https://github.com/ujwal2003/Highway-Hustle_Machine_Learning-Proj', '_blank')}>
