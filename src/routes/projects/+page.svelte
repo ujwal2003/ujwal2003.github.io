@@ -3,6 +3,7 @@
     import MlTraffic from "$lib/ProjectsPage/MLTraffic.svelte";
     import ChatAIr from "$lib/ProjectsPage/chatAIr.svelte";
     import FluidDynamics from "$lib/ProjectsPage/fluidDynamics.svelte";
+    import MusicGui from "$lib/ProjectsPage/musicGUI.svelte";
 </script>
 
 <NavBar NavSections={{Home: '/', About: "/#AboutMe", Experience: "/#ExprSection", Projects: "/#ProjSection", Contact: "/#ContactMe"}} smoothScroll={false} />
@@ -15,4 +16,6 @@
     <ChatAIr />
     <MlTraffic />
     <FluidDynamics />
+    <MusicGui />
+
 </div>
