@@ -21,32 +21,32 @@
     <ProjectHeader>
         <ProjectTitleArea>
             <ProjTitleText --pcFontSize="2rem" --mobileFontSize="28px"> 
-                Music Files GUI 
+                Minipython Interpreter 
             </ProjTitleText>
-            <ProjectDate> February 2020 </ProjectDate>
+            <ProjectDate> December 2022 </ProjectDate>
         </ProjectTitleArea>
 
         <ProjectTechArea>
             <TechIconsArea>
                 <!-- https://marwin1991.github.io/profile-technology-icons/ -->
-                <code><img width="50" src="https://user-images.githubusercontent.com/25181517/117201156-9a724800-adec-11eb-9a9d-3cd0f67da4bc.png" alt="Java" title="Java"/></code>
+                <code><img width="50" src="https://user-images.githubusercontent.com/25181517/192106073-90fffafe-3562-4ff9-a37e-c77a2da0ff58.png" alt="C++" title="C++"/></code>
+                <code><img width="50" src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png" alt="Python" title="Python"/></code>
             </TechIconsArea>
 
             <ProjTechText>
-                Java
+                C++, Python
             </ProjTechText>
         </ProjectTechArea>
     </ProjectHeader>
 
     <ProjectDescriptionArea>
         <ProjDescriptionText>
-            A Java project for organizing music files and having convinient access to licensing and source information. GUI made using Java Swing, 
-            storage and retrieval of information done using custom made XML API through the use of Java Beans XML packages.
+            Small scale miminalist python interpreter made in C++ that can execute python scripts with addition arithmatic, lists, variable assignment, and print statements.
         </ProjDescriptionText>
 
         <ProjectButtonArea>
             <LearnMoreButton on:learnMoreClick={() => window.open('https://ujwal2003.github.io/#', '_blank')} disabled />
-            <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => window.open('https://github.com/ujwal2003/Music-Organization-GUI', '_blank')}>
+            <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => window.open('https://github.com/ujwal2003/minipython-interpreter', '_blank')}>
                 GitHub Repo
             </ContentButton>
         </ProjectButtonArea>

@@ -3,6 +3,7 @@
     import MlTraffic from "$lib/ProjectsPage/MLTraffic.svelte";
     import ChatAIr from "$lib/ProjectsPage/chatAIr.svelte";
     import FluidDynamics from "$lib/ProjectsPage/fluidDynamics.svelte";
+    import Minipython from "$lib/ProjectsPage/minipython.svelte";
     import MusicGui from "$lib/ProjectsPage/musicGUI.svelte";
 </script>
 
@@ -15,6 +16,7 @@
 
     <ChatAIr />
     <MlTraffic />
+    <Minipython />
     <FluidDynamics />
     <MusicGui />
 
