@@ -23,13 +23,13 @@
     <DescriptionContent>
         <DescriptionHead>
             <ContentTitle> Boeing </ContentTitle>
-            <ContentSubtitle> Jun. 2024 - Present </ContentSubtitle>
+            <ContentSubtitle> Jun. 2024 - Aug. 2024 </ContentSubtitle>
         </DescriptionHead>
 
         <Content>
             <DescriptionTitle> Digital Aviation Solutions - Development Intern </DescriptionTitle>
             <ContentText>
-                I will be joining Boeing as a Digital Aviation Solutions Intern this Summer.
+                Collaborated with a 10-member Software and DevOps team to automate navigation data analysis with shell scripts, and improved flight message validation using Python, increasing accuracy by 25%. Integrated validation into a CI/CD pipeline with Docker, cutting deployment errors by 40%.
             </ContentText>
         </Content>
     </DescriptionContent>
