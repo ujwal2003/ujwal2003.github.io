@@ -27,9 +27,25 @@
         </DescriptionHead>
 
         <Content>
-            <DescriptionTitle> Digital Aviation Solutions - Development Intern </DescriptionTitle>
+            <div class="ml-12 max-sm:ml-0">
+                <DescriptionTitle> Digital Aviation Solutions - Development Intern </DescriptionTitle>
+                <ContentText>
+                    Collaborated with a 10-member team of Software and DevOps engineers to automate navigation data analysis tools using shell scripts, reducing manual processing time by 80%. Enhanced flight message data validation with Python, improving readability and boosting validation accuracy by 25%. Integrated data validation into a CI/CD pipeline and Docker, significantly improving the ease of viewing statistics through user-friendly test result displays.
+                </ContentText>
+            </div>
+        </Content>
+    </DescriptionContent>
+
+    <DescriptionContent>
+        <DescriptionHead>
+            <ContentTitle> CougarCS </ContentTitle>
+            <ContentSubtitle> Aug. 2023 - Aug. 2024 </ContentSubtitle>
+        </DescriptionHead>
+
+        <Content>
+            <DescriptionTitle> Computer Science Tutor </DescriptionTitle>
             <ContentText>
-                Collaborated with a 10-member Software and DevOps team to automate navigation data analysis with shell scripts, and improved flight message validation using Python, increasing accuracy by 25%. Integrated validation into a CI/CD pipeline with Docker, cutting deployment errors by 40%.
+                Guided over 11 students weekly on coding assignments, projects, and lab exercises, while also conducting one-on-one and group tutoring sessions in Computer Science courses such as Data Structures. Collaborated with a team of 30 tutors to create customized lesson plans, resulting in a 12% average increase in student exam scores.
             </ContentText>
         </Content>
     </DescriptionContent>
