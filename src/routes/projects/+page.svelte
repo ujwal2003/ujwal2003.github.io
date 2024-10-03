@@ -2,7 +2,12 @@
     import NavBar from "$lib/NavBar.svelte";
     import MlTraffic from "$lib/ProjectsPage/MLTraffic.svelte";
     import ChatAIr from "$lib/ProjectsPage/chatAIr.svelte";
+    import Cosc3337hw5 from "$lib/ProjectsPage/cosc3337hw5.svelte";
     import FluidDynamics from "$lib/ProjectsPage/fluidDynamics.svelte";
+    import HackTx23 from "$lib/ProjectsPage/hackTX23.svelte";
+    import Huffman from "$lib/ProjectsPage/huffman.svelte";
+    import Minipython from "$lib/ProjectsPage/minipython.svelte";
+    import MusicGui from "$lib/ProjectsPage/musicGUI.svelte";
 </script>
 
 <NavBar NavSections={{Home: '/', About: "/#AboutMe", Experience: "/#ExprSection", Projects: "/#ProjSection", Contact: "/#ContactMe"}} smoothScroll={false} />
@@ -12,7 +17,13 @@
         Personal Projects
     </h1>
 
+    <Cosc3337hw5 />
     <ChatAIr />
     <MlTraffic />
+    <HackTx23 />
+    <Huffman />
+    <Minipython />
     <FluidDynamics />
+    <MusicGui />
+
 </div>
