@@ -19,6 +19,19 @@
 </h1>
 
 <div class="mt-6 max-sm:pb-14 flex flex-col gap-16 max-sm:gap-12">
+    <DescriptionContent>
+        <DescriptionHead>
+            <ContentTitle> Paycom </ContentTitle>
+            <ContentSubtitle> Dec. 2024 - Present </ContentSubtitle>
+        </DescriptionHead>
+
+        <Content>
+            <DescriptionTitle> Software Developer </DescriptionTitle>
+            <ContentText>
+                I will be joining Paycom as a Software Developer this December.
+            </ContentText>
+        </Content>
+    </DescriptionContent>
 
     <DescriptionContent>
         <DescriptionHead>
@@ -30,7 +43,7 @@
             <div class="ml-12 max-sm:ml-0">
                 <DescriptionTitle> Digital Aviation Solutions - Development Intern </DescriptionTitle>
                 <ContentText>
-                    Collaborated with a 10-member team of Software and DevOps engineers to automate navigation data analysis tools using shell scripts, reducing manual processing time by 80%. Enhanced flight message data validation with Python, improving readability and boosting validation accuracy by 25%. Integrated data validation into a CI/CD pipeline and Docker, significantly improving the ease of viewing statistics through user-friendly test result displays.
+                    Collaborated with a 10-member team of Software and DevOps engineers to automate navigation data analysis tools using shell scripts, to reduce manual processing time. Enhanced flight message data validation with Python, to improve readability and boost validation accuracy. Integrated data validation into a CI/CD pipeline and Docker, significantly improving the ease of viewing statistics through user-friendly test result displays.
                 </ContentText>
             </div>
         </Content>
