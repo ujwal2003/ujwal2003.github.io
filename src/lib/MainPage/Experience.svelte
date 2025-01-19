@@ -18,49 +18,10 @@
     </div>
 </h1>
 
-<div class="mt-6 max-sm:pb-14 flex flex-col gap-16 max-sm:gap-12">
-    <DescriptionContent>
-        <DescriptionHead>
-            <ContentTitle> Paycom </ContentTitle>
-            <ContentSubtitle> Dec. 2024 - Present </ContentSubtitle>
-        </DescriptionHead>
+<div class="grid grid-cols-4 gap-y-4">
+    <div class="text-white">Test 1</div>
+    <div class="col-span-3 text-white">Content 1</div>
 
-        <Content>
-            <DescriptionTitle> Software Developer </DescriptionTitle>
-            <ContentText>
-                I will be joining Paycom as a Software Developer this December.
-            </ContentText>
-        </Content>
-    </DescriptionContent>
-
-    <DescriptionContent>
-        <DescriptionHead>
-            <ContentTitle> Boeing </ContentTitle>
-            <ContentSubtitle> Jun. 2024 - Aug. 2024 </ContentSubtitle>
-        </DescriptionHead>
-
-        <Content>
-            <div class="ml-12 max-sm:ml-0">
-                <DescriptionTitle> Digital Aviation Solutions - Development Intern </DescriptionTitle>
-                <ContentText>
-                    Collaborated with a 10-member team of Software and DevOps engineers to automate navigation data analysis tools using shell scripts, to reduce manual processing time. Enhanced flight message data validation with Python, to improve readability and boost validation accuracy. Integrated data validation into a CI/CD pipeline and Docker, significantly improving the ease of viewing statistics through user-friendly test result displays.
-                </ContentText>
-            </div>
-        </Content>
-    </DescriptionContent>
-
-    <DescriptionContent>
-        <DescriptionHead>
-            <ContentTitle> CougarCS </ContentTitle>
-            <ContentSubtitle> Aug. 2023 - Aug. 2024 </ContentSubtitle>
-        </DescriptionHead>
-
-        <Content>
-            <DescriptionTitle> Computer Science Tutor </DescriptionTitle>
-            <ContentText>
-                Guided over 11 students weekly on coding assignments, projects, and lab exercises, while also conducting one-on-one and group tutoring sessions in Computer Science courses such as Data Structures. Collaborated with a team of 30 tutors to create customized lesson plans, resulting in a 12% average increase in student exam scores.
-            </ContentText>
-        </Content>
-    </DescriptionContent>
-
+    <div class="text-white">Test 2</div>
+    <div class="col-span-3 text-white">Content 2</div>
 </div>
