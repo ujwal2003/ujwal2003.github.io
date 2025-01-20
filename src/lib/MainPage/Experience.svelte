@@ -1,8 +1,7 @@
 <script lang="ts">
     import UpButton from "../components/upButton.svelte";
-    import DescriptionCard from "$lib/components/DescriptionCard/DescriptionCard.svelte";
+    import DescriptionContainerGrid from "$lib/components/DescriptionCard/DescriptionContainerGrid.svelte";
     import DescriptionCardTitle from "$lib/components/DescriptionCard/DescriptionCardTitle.svelte";
-    import DescriptionTitle from "$lib/components/DescriptionContent/Content/descriptionTitle.svelte";
     import DescriptionCardContent from "$lib/components/DescriptionCard/DescriptionCardContent.svelte";
 </script>
 
@@ -19,7 +18,7 @@
     <div class="col-span-3 text-white">Content 1</div>
 </div> -->
 
-<DescriptionCard>
+<DescriptionContainerGrid>
     <DescriptionCardTitle 
         company={'Company'} 
         duration={'Month 20XX - Present'} 
@@ -30,4 +29,4 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         {/snippet}
     </DescriptionCardContent>
-</DescriptionCard>
+</DescriptionContainerGrid>
