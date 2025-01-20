@@ -3,6 +3,7 @@
     import DescriptionCard from "$lib/components/DescriptionCard/DescriptionCard.svelte";
     import DescriptionCardTitle from "$lib/components/DescriptionCard/DescriptionCardTitle.svelte";
     import DescriptionTitle from "$lib/components/DescriptionContent/Content/descriptionTitle.svelte";
+    import DescriptionCardContent from "$lib/components/DescriptionCard/DescriptionCardContent.svelte";
 </script>
 
 <h1 class="flex text-white font-semibold text-5xl mt-24 max-sm:text-4xl max-sm:mt-0 pt-4" id="ExprSection">
@@ -24,14 +25,9 @@
         duration={'Month 20XX - Present'} 
     />
 
-    <div class="col-span-3 flex flex-col gap-2 mt-0.5">
-        <h4 class="text-white text-2xl font-normal">
-            Job Position
-        </h4>
-
-        <p class="text-[#7F94A6] text-xl font-normal w-3/4 max-sm:w-11/12">
+    <DescriptionCardContent jobTitle={'Job Title'}>
+        {#snippet jobDescription()}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-    </div>
-
+        {/snippet}
+    </DescriptionCardContent>
 </DescriptionCard>
