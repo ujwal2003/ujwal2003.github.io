@@ -16,9 +16,9 @@ import UpButton from "../components/upButton.svelte";
     <span class="bg-sky-500/[.05]">
         Ujwal Joshi,
     </span> 
-    a senior at the 
+    an alumnus of the
     <HighlightLink href="https://www.uh.edu/">
         University of Houston,
     </HighlightLink>
-     currently pursuing a B.S. in Computer Science with a minor in Mathematics. I'm passionate about all things tech-related, with a keen interest in software engineering, data science, and web development. I am excited to contribute to and experience more technological innovations in my time and aspire to make a impact in the field.
+     with a B.S. in Computer Science and a minor in Mathematics. I'm passionate about all things tech-related, with a keen interest in software engineering, data science, and web development. I am excited to contribute to and experience more technological innovations in my time and aspire to make a impact in the field.
 </p>

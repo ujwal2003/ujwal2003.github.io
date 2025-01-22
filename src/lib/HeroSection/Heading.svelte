@@ -7,5 +7,5 @@
 </div>
 
 <div class="text-white text-5xl font-sans max-sm:text-2xl">
-    an aspiring Software Engineer.
+    a Passionate Developer.
 </div>
