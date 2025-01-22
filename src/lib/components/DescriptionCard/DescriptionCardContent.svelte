@@ -9,7 +9,7 @@
     let { jobTitle, jobDescription }: Props = $props();
 </script>
 
-<div class="col-span-3 flex flex-col gap-2 mt-0.5">
+<div class="col-span-3 flex flex-col gap-2 mt-0.5 max-sm:pb-6">
     <h4 class="text-white text-2xl font-normal">
         { jobTitle }
     </h4>
