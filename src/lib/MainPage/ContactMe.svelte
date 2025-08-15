@@ -1,5 +1,10 @@
 <script lang="ts">
     import UpButton from "../components/upButton.svelte";
+    const email = "joshiujwal2003@gmail.com";
+
+    function handleClick() {
+      navigator.clipboard.writeText(email);
+    }
 </script>
 
 <h1 class="flex text-white font-semibold text-5xl mt-24 max-sm:text-4xl max-sm:mt-0 pt-4" id="ContactMe">
@@ -35,7 +40,7 @@
 </div> -->
 
 <!-- Contact Card -->
-<div class="space-y-3 w-1/3 mt-4 pb-20 max-sm:w-11/12 max-sm:pb-28">
+<button class="space-y-3 w-1/3 mt-4 pb-20 max-sm:w-11/12 max-sm:pb-28" on:click={handleClick}>
     <div class="border shadow-sm bg-[#0F182C] border-[#161E23] shadow-neutral-700/70 flex rounded-xl">
 
         <div class="relative w-1/3 md:w-1/4 max-sm:hidden">
@@ -48,7 +53,7 @@
               Email
             </h3>
             <p class="mt-1 text-xl text-[#7F94A6]">
-              joshiujwal2003@gmail.com
+              {email}
             </p>
 
             <!-- <div class="mt-5 sm:mt-auto">
@@ -60,4 +65,4 @@
         </div>
 
     </div>
-</div>
+</button>
