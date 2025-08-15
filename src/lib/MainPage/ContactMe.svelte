@@ -1,9 +1,15 @@
 <script lang="ts">
+    import { toast } from '@zerodevx/svelte-toast'
     import UpButton from "../components/upButton.svelte";
     const email = "joshiujwal2003@gmail.com";
 
     function handleClick() {
       navigator.clipboard.writeText(email);
+      toast.push("Email Copied!", { 
+        theme: {
+          '--toastBarHeight': 0
+        }
+      });
     }
 </script>
 
