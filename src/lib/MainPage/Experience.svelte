@@ -27,7 +27,7 @@
 
     <DescriptionCardContent jobTitle={'Software Developer'}>
         {#snippet jobDescription()}
-            I am currently working at Paycom as a Software Developer.
+            I am currently working as a Software Developer for Paycom's Expense Management module.
         {/snippet}
     </DescriptionCardContent>
 
