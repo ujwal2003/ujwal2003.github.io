@@ -22,6 +22,28 @@
 <div class="flex gap-6 flex-wrap mt-3 max-sm:pb-3 max-sm:flex-col max-sm:gap-3">
 
     <ProjectCard>
+        <ProjectImage />
+        <CardContent>
+            <CardTitle> CatchUp </CardTitle>
+            <CardText>
+                A gamified journaling app built with SwiftUI promotes mental well-being through daily gratitude and reflection. It features a Figma-designed city-building interface and integrates Firebase and Apple CoreML for secure user management, data storage, and sentiment-based personalization.
+            </CardText>
+
+            <div class="pt-[6.55rem] max-sm:pt-10"></div>
+            <ButtonContainer>
+                <LearnMoreBtn disabled />
+                <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => window.open('https://github.com/ujwal2003/Team10_JournalApp', '_blank')}>
+                    GitHub Repo
+                </ContentButton>
+            </ButtonContainer>
+
+            <p class="mt-5 text-xs text-neutral-500">
+                December 2024
+            </p>
+        </CardContent>
+    </ProjectCard>
+
+    <ProjectCard>
         <ProjectImage src='/images/chatAIR_projectBanner.png' />
         <CardContent>
             <CardTitle> Chat AIr </CardTitle>
@@ -31,7 +53,7 @@
                 PROS track.
             </CardText>
 
-            <div class="pt-[6.55rem] max-sm:pt-10"></div>
+            <div class="pt-[16.95rem] max-sm:pt-10"></div>
             <ButtonContainer>
                 <LearnMoreBtn on:learnMoreClick={() => window.open('https://devpost.com/software/chatair', '_blank')} />
                 <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => window.open('https://github.com/ujwal2003/CodeRED2024', '_blank')}>
@@ -53,7 +75,7 @@
                 Utilized machine learning and statistical analysis to conduct a comprehensive analysis of intersate traffic and identify key factors pivotal to predicting traffic volume.
             </CardText>
 
-            <div class="pt-6 max-sm:pt-10"></div>
+            <div class="pt-[11.85rem] max-sm:pt-10"></div>
             <ButtonContainer>
                 <LearnMoreBtn on:learnMoreClick={() => window.open('/assets/HighHustle_ML.pdf', '_blank')} />
                 <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => window.open('https://github.com/ujwal2003/Highway-Hustle_Machine_Learning-Proj', '_blank')}>
@@ -63,27 +85,6 @@
 
             <p class="mt-5 text-xs text-neutral-500">
                 December 2023
-            </p>
-        </CardContent>
-    </ProjectCard>
-
-    <ProjectCard>
-        <ProjectImage />
-        <CardContent>
-            <CardTitle> Fluid Dynamics Serial Receiver </CardTitle>
-            <CardText>
-                Collaborated with a team to create a Java Swing desktop application that collects and displays data from fluid samples, utilizing three sensors to detect chemical content.
-            </CardText>
-
-            <ButtonContainer>
-                <LearnMoreBtn disabled />
-                <ContentButton arrowIcon smallText noTopMargin on:contentClick={() => window.open('https://github.com/ujwal2003/fluid-dynamics-serial-receiver', '_blank')}>
-                    GitHub Repo
-                </ContentButton>
-            </ButtonContainer>
-
-            <p class="mt-5 text-xs text-neutral-500">
-                April 2020
             </p>
         </CardContent>
     </ProjectCard>
