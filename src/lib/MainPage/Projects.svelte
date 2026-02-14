@@ -22,7 +22,7 @@
 <div class="flex gap-6 flex-wrap mt-3 max-sm:pb-3 max-sm:flex-col max-sm:gap-3">
 
     <ProjectCard>
-        <ProjectImage />
+        <ProjectImage src='/images/CatchUpIcon.png' />
         <CardContent>
             <CardTitle> CatchUp </CardTitle>
             <CardText>

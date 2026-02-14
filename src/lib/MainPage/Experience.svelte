@@ -38,7 +38,7 @@
 
     <DescriptionCardContent jobTitle={'Digital Aviation Solutions - Development Intern'}>
         {#snippet jobDescription()}
-            Collaborated with a 10-member team of Software and DevOps engineers to enhance navigation data analysis and flight message validation processes. Automated data analysis with shell scripts and improved data readability and accuracy using Python. Integrated validation tools into a CI/CD pipeline with Docker, streamlining deployment workflows and providing clear, user-friendly test result displays.
+            I worked with a 10-member Software and DevOps team to improve navigation data workflows and mission-critical notification systems. I automated data analysis and integrated validation into the CI/CD pipeline to reduce manual effort, and accelerate processing time.
         {/snippet}
     </DescriptionCardContent>
 

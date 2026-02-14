@@ -3,4 +3,4 @@
     export let alt = "Project Image";
 </script>
 
-<img class="w-full h-auto rounded-t-xl max-sm:hidden"  src={src} alt={alt}>
+<img class="w-full h-44 rounded-t-xl max-sm:hidden"  src={src} alt={alt}>
