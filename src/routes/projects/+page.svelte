@@ -8,6 +8,7 @@
     import Huffman from "$lib/ProjectsPage/huffman.svelte";
     import Minipython from "$lib/ProjectsPage/minipython.svelte";
     import MusicGui from "$lib/ProjectsPage/musicGUI.svelte";
+    import CatchUp from "$lib/ProjectsPage/catchUp.svelte";
 </script>
 
 <NavBar NavSections={{Home: '/', About: "/#AboutMe", Experience: "/#ExprSection", Projects: "/#ProjSection", Contact: "/#ContactMe"}} smoothScroll={false} />
@@ -17,6 +18,7 @@
         Personal Projects
     </h1>
 
+    <CatchUp />
     <Cosc3337hw5 />
     <ChatAIr />
     <MlTraffic />

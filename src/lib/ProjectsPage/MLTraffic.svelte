@@ -24,7 +24,7 @@
             <ProjTitleText --pcFontSize="2.2rem" --mobileFontSize="25px"> 
                 Traffic Trends ML Model 
             </ProjTitleText>
-            <ProjectDate> December 2023 </ProjectDate>
+            <ProjectDate> November - December 2023 </ProjectDate>
         </ProjectTitleArea>
 
         <ProjectTechArea>
