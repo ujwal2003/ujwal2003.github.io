@@ -21,13 +21,24 @@
 
 <DescriptionContainerGrid>
     <DescriptionCardTitle 
+        company={'Newrez'}
+        duration={'Apr. 2026 - Present'}
+    />
+
+    <DescriptionCardContent jobTitle={'Applications Developer II'}>
+        {#snippet jobDescription()}
+            I am currently working as a Applications Developer for Newrez's Loss Mitigation team.
+        {/snippet}
+    </DescriptionCardContent>
+
+    <DescriptionCardTitle 
         company={'Paycom'}
-        duration={'Dec. 2024 - Present'}
+        duration={'Dec. 2024 - Mar. 2026'}
     />
 
     <DescriptionCardContent jobTitle={'Software Developer'}>
         {#snippet jobDescription()}
-            I am currently working as a Software Developer for Paycom's Expense Management module. I built and led core Expense Management features used by 37,000+ organizations, including OCR-based receipt parsing and bank transaction integrations, while improving system performance and workflow optimizations.
+            I am worked as a Software Developer for Paycom's Expense Management module. I built and led core Expense Management features used by 37,000+ organizations, including OCR-based receipt parsing and bank transaction integrations, while improving system performance and workflow optimizations.
         {/snippet}
     </DescriptionCardContent>
 
