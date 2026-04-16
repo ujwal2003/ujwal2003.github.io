@@ -38,7 +38,7 @@
 
     <DescriptionCardContent jobTitle={'Software Developer'}>
         {#snippet jobDescription()}
-            I am worked as a Software Developer for Paycom's Expense Management module. I built and led core Expense Management features used by 37,000+ organizations, including OCR-based receipt parsing and bank transaction integrations, while improving system performance and workflow optimizations.
+            I worked as a Software Developer for Paycom's Expense Management module. I built and led core Expense Management features used by 37,000+ organizations, including OCR-based receipt parsing and bank transaction integrations, while improving system performance and workflow optimizations.
         {/snippet}
     </DescriptionCardContent>
 
